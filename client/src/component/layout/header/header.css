@@ -1,0 +1,79 @@
+header{
+    width: 100%;
+    background: #132226;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.header{
+    max-width: 1250px;
+    min-height: 70px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 0 30px;
+    align-items: center;
+}
+
+.header .logo{
+    flex: 1;
+}
+.header .logo h1 a{
+    color:#be9063 ;
+}
+.menu a{
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.header .menu ul li{
+    display: inline-block;
+    opacity: 0.7;
+    padding: 0 20px;
+}
+.header .menu ul li:hover{
+    opacity: 1;
+}
+.bars{
+    width: 80px;
+    display: none;
+    color: white;
+    text-align: end;
+    padding-right: 5px;
+}
+.icons div{
+    display: inline-block;
+}
+.cart{
+    position: relative;
+    padding: 0 10px;
+}
+.cart i{
+    color: white;
+}
+.cart span{
+    background: crimson;
+    position: absolute;
+    top: -15px;
+    border-radius: 7px;
+    color: white;
+    padding: 2px 4px;
+    right: 0px;
+}
+.headerProfile{
+    padding: 0;
+    margin: 0;
+}
+.menu > ul{
+    display: flex;
+    align-items: center;
+}
+.headerProfile > a > img{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+

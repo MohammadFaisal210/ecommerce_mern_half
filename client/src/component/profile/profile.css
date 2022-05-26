@@ -1,0 +1,70 @@
+.profilewrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.profileImg{
+    max-width: 320px;
+    height: auto;
+}
+.profileImg > img{
+    width: 270px;
+    max-height: 270px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.profileImg a{
+    margin: 10px 0;
+    width: 100%;
+    display: block;
+    background-color: #132226;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 3px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: all 0.9s ease-in-out;
+}
+.profileImg a:hover{
+    background-color: #BE9063;
+}
+.profileInfor {
+    display: flex;
+    max-width: 350px;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
+.profileInfor >div{
+    display: flex;
+    padding: 10px 0;
+}
+.profileInfor >div > h4{
+    color: #132226;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-right: 5px;
+}
+.profileButton{
+    flex-direction: column;
+}
+.profileButton a{
+    max-width: 300px;
+    margin: 10px 0;
+    width: 100%;
+    display: block;
+    background-color: #132226;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 3px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: all 0.9s ease-in-out;
+}

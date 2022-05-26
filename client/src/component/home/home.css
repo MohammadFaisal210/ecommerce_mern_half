@@ -1,0 +1,61 @@
+.home{
+    background-image: url(./hero-home_af_spring2021.jpg);
+    width: 100%;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    padding: 50px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.banner h1{
+    margin: 25px 0;
+    font:600 15px;
+    text-transform: capitalize;
+    letter-spacing: 1.2px;
+}
+.banner h2{
+    font-size: 32px;
+    color: #BE9063;
+}
+.banner a{
+    display: inline-block;
+}
+.banner a button{
+    cursor: pointer;
+    border: 1px solid #BE9063;
+    padding: 6.4px;
+    transition: all 0.5s;
+    letter-spacing: 1px;
+    background-color: #BE9063;
+    color: white;
+    font-size: 18px;
+}
+.banner a button:hover{
+    /* background-color: #132226; */
+    background: transparent;
+    color:#BE9063;
+}
+/* .home::after{
+    content: "";
+    width: 100vw;
+    height: 100vmin;
+    background-color: #132226;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    max-width: 100%;
+    clip-path: polygon(100% 91%, 0 100%, 100% 100%);
+} */
+
+.srcInput{
+    width: 500px;
+    margin: 0 auto;
+}
+.srcInput input{
+    width: 100%;
+    height: 20px;
+}

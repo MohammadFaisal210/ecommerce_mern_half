@@ -1,0 +1,111 @@
+.login_page{
+    max-width: 500px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 20px;
+}
+.login{
+    background-color: rgba(241, 234, 234, 0.792);
+    height: 100vh;
+}
+.login_page h2{
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.login_form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.login_form div input,label{
+    width: 100%;
+    height: 35px;
+}
+.login_form div label{
+    font-size: 18x;
+    margin:10px 0px;
+}
+.login_form > div > input{
+    text-align: start;
+    padding: 5px;
+    margin:10px 0px;
+    outline: none;
+    border:1px solid #132226;
+    border-radius:3px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+}
+.login_form > div > input::placeholder{
+    text-transform: capitalize;
+}
+.showButton{
+    position: absolute;
+    transform: translate(-27px, 18px);
+    cursor: pointer;
+}
+
+.login_form div svg {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    transform: translateY(14px);
+}
+.login_form > div > input::placeholder {
+    font-size: 14px;
+  }
+.login_button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login_form .login_button button{
+    background-color: #132226;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    margin:10px 0px;
+    transition: all 0.5s;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    font-size: 16px;
+    height: 40px;
+    text-align: center;
+    padding: 7px 10px;
+    max-width: 200px;
+}
+.login_form div button:hover{
+    background-color: #BE9063;
+}
+
+.registerImg > div{
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    padding: 0;
+}
+.registerImg > div > img{
+    margin-right: 7px;
+    width: 40px;
+    border-radius: 100%;
+}
+.registerImg > div > input{
+    display: flex;
+    border-radius: 3px;
+    border: 1px solid #132226;
+}
+.registerImg > div > input::file-selector-button{
+    cursor: pointer;
+    width: 100%;
+    z-index: 1;
+    height: 100%;
+    border: none;
+    font-size: 14px;
+    transition: all 0.5s ease-in-out;
+}
+.registerImg > div > input::file-selector-button:hover{
+    background-color: #dfeef322;
+}

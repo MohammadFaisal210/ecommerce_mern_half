@@ -1,0 +1,83 @@
+.editInfor{
+    max-width: 550px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+}
+.editInfor > form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.editInfor > form > div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 7px 0;
+}
+.editInfor > form > div > label{
+    padding: 0;
+    margin: 0;
+}
+.editInfor > form > div > input,label{
+    width: 100%;
+    height: auto;
+}
+.editInfor > form > div > input{
+    margin: 5px 0;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    height: 35px;
+    border:1px solid #132226;
+    text-align: start;
+    padding: 0 7px;
+    font-size: 16px;
+}
+.editProfileImg{
+    display: flex;
+    align-items: center;
+}
+.editProfileImg > img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 4px;
+}
+.editProfileImg>input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #132226;
+}
+.editProfileImg>input::file-selector-button{
+    width: 100%;
+    padding: 0;
+    height: 100%;
+    border: none;
+    outline: none;
+    z-index: 1;
+    font-size: 16px;
+    transition: all 1s;
+    cursor: pointer;
+}
+.editProfileImg>input:hover::file-selector-button{
+    background-color: #dfeef322;
+    color: white;
+}
+.editInfor > form .editProButton{
+    max-width:150px;
+    background-color: #132226;
+    margin-top: 20px;
+    border-radius: 3px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: all 0.4s;
+}
+.editInfor > form .editProButton:hover{
+    background-color: #BE9063;
+}

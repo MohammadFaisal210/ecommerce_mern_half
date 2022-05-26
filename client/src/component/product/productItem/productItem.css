@@ -1,0 +1,45 @@
+.productCard{
+    max-width: 300px;
+    overflow: hidden;
+    height: 450px;
+    width: 100%;
+    /* padding: 15px; */
+    box-shadow: 0 0 15px #ddd;
+    margin: 10px 0;
+    z-index: 99;
+}
+.productCard img{
+    width: 100%;
+    height:270px;
+    object-fit: cover;
+}
+.productCard .productInfor{
+    padding: 7px;
+}
+.productCard .productInfor div{
+    margin: 3.5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productCard .productInfor div .reviews{
+    color: black;
+    opacity: 0.8;
+    font-size: 16px;
+    display: contents;
+}
+.productCard p{
+    font-size: 20px;
+    margin: 7px 3px;
+    margin-bottom: 0;
+}
+.productCard span{
+    color: tomato;
+    font-size: 18px;
+    font-weight: 600;
+}
+.productCard:hover{
+    box-shadow: 0 0 5px rgba(15,15,15,0.36);
+    transition: all 0.5s ease-in-out;
+    transform: translateY(-5px);
+}
